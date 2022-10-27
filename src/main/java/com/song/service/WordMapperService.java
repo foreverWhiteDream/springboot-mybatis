@@ -52,6 +52,6 @@ public interface WordMapperService {
     /**
      * 分页查询
      */
-    public Page page(Integer pageNum, Integer pageSize, String search);
+    public Page<Word> page(Integer pageNum, Integer pageSize, String search);
 
 }
